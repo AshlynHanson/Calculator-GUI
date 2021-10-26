@@ -69,7 +69,3 @@ The calculator should be able to calculate the square root of a number. Example:
 number, the sqrt operator, the ‘=’ operator, and the resulting square root of the number.
   Backspace
 The calculator should also be able to perform the backspace functionality. When the ‘<-” operator button is clicked, the last character or number in the text field is deleted.
- 
-
-UML Diagram
-The Calculator class has an aggregation of the Logic class. The Calculator class takes the text inputted into the text field and parses through the text to separate the numbers and the operator. The Calculator class takes those values and passes them to the Logic class in order to calculate the math. There are different functions in the Logic class that represent the different calculator mathematical functions. The Logic class calls the respective function for the math needed and returns the new output text to the Calculator class, which then displays that output in the text field,
